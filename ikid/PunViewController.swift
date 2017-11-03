@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  ikid
 //
 //  Created by Thipok Cholsaipant on 10/31/17.
@@ -8,9 +8,10 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class PunViewController: JokesViewController {
+    
     override func viewDidLoad() {
+        super.setStatements(["Have you ever tried to eat a clock?", "It's very time consuming."])
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

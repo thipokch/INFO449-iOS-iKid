@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		181F5B6A1FA953AB00F43207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B691FA953AB00F43207 /* AppDelegate.swift */; };
-		181F5B6C1FA953AB00F43207 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B6B1FA953AB00F43207 /* FirstViewController.swift */; };
-		181F5B6E1FA953AB00F43207 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B6D1FA953AB00F43207 /* SecondViewController.swift */; };
+		181F5B6C1FA953AB00F43207 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B6B1FA953AB00F43207 /* GoodViewController.swift */; };
+		181F5B6E1FA953AB00F43207 /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B6D1FA953AB00F43207 /* PunViewController.swift */; };
 		181F5B711FA953AB00F43207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F5B6F1FA953AB00F43207 /* Main.storyboard */; };
 		181F5B731FA953AB00F43207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181F5B721FA953AB00F43207 /* Assets.xcassets */; };
 		181F5B761FA953AC00F43207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F5B741FA953AC00F43207 /* LaunchScreen.storyboard */; };
 		181F5B811FA953AC00F43207 /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B801FA953AC00F43207 /* ikidTests.swift */; };
 		181F5B8C1FA953AC00F43207 /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B8B1FA953AC00F43207 /* ikidUITests.swift */; };
+		181F5B9A1FA9573200F43207 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B991FA9573200F43207 /* DadViewController.swift */; };
+		181F5B9E1FA9681900F43207 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5B9D1FA9681900F43207 /* JokeView.swift */; };
+		181F5BA01FA968C600F43207 /* JokeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181F5B9F1FA968C600F43207 /* JokeView.xib */; };
+		181F5BA91FA9B2F900F43207 /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F5BA71FA9B2F900F43207 /* JokeViewController.swift */; };
+		1861DD1E1FAAD114009CB7C3 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861DD1D1FAAD114009CB7C3 /* JokesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,8 @@
 /* Begin PBXFileReference section */
 		181F5B661FA953AB00F43207 /* ikid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ikid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181F5B691FA953AB00F43207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181F5B6B1FA953AB00F43207 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		181F5B6D1FA953AB00F43207 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		181F5B6B1FA953AB00F43207 /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		181F5B6D1FA953AB00F43207 /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
 		181F5B701FA953AB00F43207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181F5B721FA953AB00F43207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181F5B751FA953AC00F43207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		181F5B871FA953AC00F43207 /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181F5B8B1FA953AC00F43207 /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		181F5B8D1FA953AC00F43207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181F5B991FA9573200F43207 /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		181F5B9D1FA9681900F43207 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		181F5B9F1FA968C600F43207 /* JokeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JokeView.xib; sourceTree = "<group>"; };
+		181F5BA71FA9B2F900F43207 /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
+		1861DD1D1FAAD114009CB7C3 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,18 @@
 		181F5B681FA953AB00F43207 /* ikid */ = {
 			isa = PBXGroup;
 			children = (
+				181F5BA71FA9B2F900F43207 /* JokeViewController.swift */,
+				1861DD1D1FAAD114009CB7C3 /* JokesViewController.swift */,
 				181F5B691FA953AB00F43207 /* AppDelegate.swift */,
-				181F5B6B1FA953AB00F43207 /* FirstViewController.swift */,
-				181F5B6D1FA953AB00F43207 /* SecondViewController.swift */,
+				181F5B6B1FA953AB00F43207 /* GoodViewController.swift */,
+				181F5B991FA9573200F43207 /* DadViewController.swift */,
+				181F5B6D1FA953AB00F43207 /* PunViewController.swift */,
 				181F5B6F1FA953AB00F43207 /* Main.storyboard */,
+				181F5B9D1FA9681900F43207 /* JokeView.swift */,
 				181F5B721FA953AB00F43207 /* Assets.xcassets */,
 				181F5B741FA953AC00F43207 /* LaunchScreen.storyboard */,
 				181F5B771FA953AC00F43207 /* Info.plist */,
+				181F5B9F1FA968C600F43207 /* JokeView.xib */,
 			);
 			path = ikid;
 			sourceTree = "<group>";
@@ -236,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181F5B761FA953AC00F43207 /* LaunchScreen.storyboard in Resources */,
+				181F5BA01FA968C600F43207 /* JokeView.xib in Resources */,
 				181F5B731FA953AB00F43207 /* Assets.xcassets in Resources */,
 				181F5B711FA953AB00F43207 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181F5B6E1FA953AB00F43207 /* SecondViewController.swift in Sources */,
+				181F5B6E1FA953AB00F43207 /* PunViewController.swift in Sources */,
+				181F5BA91FA9B2F900F43207 /* JokeViewController.swift in Sources */,
 				181F5B6A1FA953AB00F43207 /* AppDelegate.swift in Sources */,
-				181F5B6C1FA953AB00F43207 /* FirstViewController.swift in Sources */,
+				1861DD1E1FAAD114009CB7C3 /* JokesViewController.swift in Sources */,
+				181F5B9E1FA9681900F43207 /* JokeView.swift in Sources */,
+				181F5B9A1FA9573200F43207 /* DadViewController.swift in Sources */,
+				181F5B6C1FA953AB00F43207 /* GoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
